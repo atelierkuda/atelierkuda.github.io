@@ -22,7 +22,7 @@ html, body {
   padding: 0;
   margin: 0;
   overflow: hidden;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "ROBOTO","Helvetica Neue", Helvetica,  Arial, sans-serif;
   font-size: 16px;
   background-color: #000;
   color: #fff;
@@ -47,12 +47,10 @@ a, a:hover, a:active, a:visited {
   top: 0;
   left: 0;
   right: 0;
-  background: #262626;
+  background: #fff;
   display: flex;
-  align-items: center;
-  padding: 8px;
-  gap: 12px;
-
+  justify-content: space-between;
+  padding: 0 12px;
 }
 
 .mobile #titleBar {
@@ -61,8 +59,38 @@ a, a:hover, a:active, a:visited {
 }
 
 #titleBar .logo {
+  height: 64px;
+}
+
+#titleBar .spacer {
+  height: 48px;
+  width: 1px;
+  background: #000;
+}
+
+#titleBar .sceneInfoWrap {
+  color: #000;
   height: 86px;
-  border-right: solid 1px #fff;
+  box-sizing: border-box;
+  padding: 20px 0 0 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+}
+
+#titleBar .sceneInfoWrap h1 {
+  font-weight: 400;
+}
+
+#titleBar .sceneInfoWrap h2 {
+  font-weight: 200;
+}
+
+.mobile #titleBar .sceneInfoWrap {
+  color: #fff;
+  height: 86px;
+  padding: 14px 0 0 0;
 }
 
 /* If there is a fullscreen button the title bar must make space for it */
@@ -83,12 +111,6 @@ body.multiple-scenes.mobile #titleBar {
   left: 50px;
 }
 
-#titleBar .sceneInfoWrap {
-  color: #fff;
-  height: 86px;
-  padding: 14px 0 0 0;
-}
-
 #titleBar .sceneName {
   width: 100%;
   height: 100%;
@@ -102,17 +124,30 @@ body.multiple-scenes.mobile #titleBar {
   user-select: text;
 }
 
+#titleBar .leftAlignWrap{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#titleBar .rightAlignWrap{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
+#titleBar .rightAlignWrap a:hover {
+  transform: scale(1.1);
+}
+
 
 #fullscreenToggle {
   display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  filter: invert(1);
 }
 
 .mobile #fullscreenToggle {
@@ -153,17 +188,17 @@ body.fullscreen-enabled #fullscreenToggle {
   display: none;
 }
 
+
+
 #autorotateToggle {
   display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  filter: invert(1);
 }
+
+
 
 .mobile #autorotateToggle {
   width: 50px;
@@ -207,6 +242,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 #autorotateToggle.enabled .icon.off {
   display: none;
 }
+
 
 #sceneListToggle {
   position: absolute;
@@ -786,16 +822,33 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 /* View control buttons */
 
+
+#controlsWrap {
+  position: absolute;
+  padding: 12px;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#controlsWrap .controlsBorder {
+  display: flex;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.7);
+}
+
 .viewControlButton {
   display: none;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
-  padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  filter: invert(1);
 }
 
 body.view-control-buttons .viewControlButton {
@@ -810,29 +863,7 @@ body.view-control-buttons .viewControlButton {
 }
 
 .viewControlButton .icon {
-  position: absolute;
-  top: 5px;
-  right: 5px;
+  margin: 5px;
   width: 30px;
   height: 30px;
-}
-
-/* Center is at margin-left: -20px */
-.viewControlButton-1 {
-  margin-left: -145px;
-}
-.viewControlButton-2 {
-  margin-left: -95px;
-}
-.viewControlButton-3 {
-  margin-left: -45px;
-}
-.viewControlButton-4 {
-  margin-left: 5px;
-}
-.viewControlButton-5 {
-  margin-left: 55px;
-}
-.viewControlButton-6 {
-  margin-left: 105px;
 }
