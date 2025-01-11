@@ -46,7 +46,7 @@ This project is not open source and is owned by **KUDA Architecture s.r.o.** All
 
 For any inquiries, please contact us at:
 
-- **✉️ Email**: info@kuda-architecture.com
-- **🌐 Website**: [KUDA Architecture s.r.o.](https://www.kuda-architecture.com)
+- **✉️ Email**: projekce@atelierkuda.cz
+- **🌐 Website**: [KUDA Architecture s.r.o.](https://www.atelierkuda.cz)
 
 Thank you for visiting our repository!
