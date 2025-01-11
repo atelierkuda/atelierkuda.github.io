@@ -834,6 +834,11 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   align-items: center;
 }
 
+
+.mobile #controlsWrap {
+  display:none;
+}
+
 #controlsWrap .controlsBorder {
   display: flex;
   gap: 4px;
