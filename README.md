@@ -1,6 +1,6 @@
-# 🏢 KUDA Architecture s.r.o. Digital Hub
+# 🏢 KUDA Architecture s.r.o. Digital hub
 
-Welcome to the official repository of **KUDA Architecture s.r.o.** This project serves as the company page for KUDA Architecture, providing a platform to share digital data such as virtual tours, 3D models, point clouds, and more. The primary purpose of this page is to allow clients to access these resources and to aid in the propagation of our work.
+Welcome to the official repository of **KUDA Architecture s.r.o. digital hub** This project serves as the company page for KUDA Architecture, providing a platform to share digital data such as virtual tours, 3D models, point clouds, and more. The primary purpose of this page is to allow clients to access these resources and to aid in the propagation of our work.
 
 ## 📋 Table of Contents
 
