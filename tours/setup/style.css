@@ -81,6 +81,7 @@ a, a:hover, a:active, a:visited {
 
 #titleBar .sceneInfoWrap h1 {
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 #titleBar .sceneInfoWrap h2 {
@@ -147,7 +148,7 @@ body.multiple-scenes.mobile #titleBar {
   width: 40px;
   height: 40px;
   padding: 5px;
-  filter: invert(1);
+  filter: invert(0);
 }
 
 .mobile #fullscreenToggle {
@@ -195,7 +196,7 @@ body.fullscreen-enabled #fullscreenToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  filter: invert(1);
+  filter: invert(0);
 }
 
 
@@ -835,7 +836,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 #controlsWrap .controlsBorder {
   display: flex;
-  gap: 6px;
+  gap: 4px;
   padding: 8px 12px;
   border-radius: 12px;
   background: rgba(255,255,255,0.7);
@@ -848,7 +849,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   align-items: center;
   width: 40px;
   height: 40px;
-  filter: invert(1);
+  filter: invert(0);
 }
 
 body.view-control-buttons .viewControlButton {
@@ -866,4 +867,8 @@ body.view-control-buttons .viewControlButton {
   margin: 5px;
   width: 30px;
   height: 30px;
+}
+
+.viewControlButton:hover .icon {
+  scale: 1.2;
 }
