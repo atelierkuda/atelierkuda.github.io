@@ -3,16 +3,16 @@
 <svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
     <g transform="matrix(0.702862,-0.702862,0.707107,0.707107,8.70473,18.2062)">
         <g transform="matrix(-1.00604,-5.45055e-17,1.11022e-16,-1,18.8316,1.56694)">
-            <path d="M12,7.266L12,16.766M15.889,13.066L12,16.955L8.111,13.066" style="fill:none;stroke:black;stroke-width:1.4px;"/>
+            <path d="M12,7.266L12,16.766M15.889,13.066L12,16.955L8.111,13.066" style="fill:none;stroke:black;stroke-width:0.8px;"/>
         </g>
         <g transform="matrix(-4.4543e-16,1,1.00604,2.80561e-16,2.63121,-14.5362)">
-            <path d="M12,7.266L12,16.766M15.889,13.066L12,16.955L8.111,13.066" style="fill:none;stroke:black;stroke-width:1.4px;"/>
+            <path d="M12,7.266L12,16.766M15.889,13.066L12,16.955L8.111,13.066" style="fill:none;stroke:black;stroke-width:0.8px;"/>
         </g>
         <g transform="matrix(-1.34092e-18,1,-1.00604,-1.63528e-16,10.4064,-14.0584)">
-            <path d="M12,7.266L12,16.766M15.889,13.066L12,16.955L8.111,13.066" style="fill:none;stroke:black;stroke-width:1.4px;"/>
+            <path d="M12,7.266L12,16.766M15.889,13.066L12,16.955L8.111,13.066" style="fill:none;stroke:black;stroke-width:0.8px;"/>
         </g>
         <g transform="matrix(-1.00604,-3.89584e-16,-3.35749e-16,1,18.3509,-6.16154)">
-            <path d="M12,7.266L12,16.766M15.889,13.066L12,16.955L8.111,13.066" style="fill:none;stroke:black;stroke-width:1.4px;"/>
+            <path d="M12,7.266L12,16.766M15.889,13.066L12,16.955L8.111,13.066" style="fill:none;stroke:black;stroke-width:0.8px;"/>
         </g>
     </g>
 </svg>
